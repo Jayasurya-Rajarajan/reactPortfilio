@@ -1,0 +1,23 @@
+.content-part{
+    background-color: white;
+    width: 72%;
+    height: 100%;
+    position: absolute;
+    padding-left: 5px;
+    border-radius: 25px;
+}
+.content-head{
+    float: left;
+
+}
+.content-head h1{
+    float: left;
+    color: black;
+    padding: 10px;
+
+}
+.content-head p{
+    padding: 10px;
+    color: black;
+    display: inline-block;
+}

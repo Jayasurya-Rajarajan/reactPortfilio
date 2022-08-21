@@ -1,0 +1,17 @@
+.sidebar-paragraph{
+    color: white;
+}
+.sidebar{
+    background-color: white;
+    border-radius: 25px;
+    width: 25%;
+    height: 100%;
+    position: absolute;
+}
+.sidebar h1{
+    color: black;
+}
+.sidebar p{
+    color: black;
+    padding: 10px;
+}
