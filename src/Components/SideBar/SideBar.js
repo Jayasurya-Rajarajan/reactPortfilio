@@ -1,10 +1,32 @@
 import React from "react";
 import styles from "./SideBar.module.css";
+import profile from "../../Images/profile.png";
 const SideBar = () => {
   return (
     <>
       <div className={styles.sidebar}>
-        <h1>SideBar</h1>
+        <div className={styles["profile-image-div"]}>
+          <img
+            className={styles["profile-image"]}
+            src={profile}
+            alt="profile"
+            width="150px"
+            height="150px"
+          />
+        </div>
+        <div className={styles["name-div"]}>
+          <h1>Jayasurya</h1>
+        </div>
+        <div className={styles["designation-div"]}>
+          <h3>Software Developer</h3>
+        </div>
+        <div className={styles['tech-list-div']}>
+          <div className={styles['tech-list']}>
+            <h6>.NET,</h6>
+            <h6>React JS,</h6>
+            <h6>SQL Server</h6>
+          </div>
+        </div>
         <p className={styles["sidebar-paragraph"]}>
           What is Lorem Ipsum? Lorem Ipsum is simply dummy text of the printing
           and typesetting industry. Lorem Ipsum has been the industry's standard
