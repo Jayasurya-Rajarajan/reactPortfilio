@@ -5,8 +5,9 @@
     background-color: white;
     border-radius: 25px;
     width: 25%;
-    height: 100%;
+    min-height: 90%;
     position: absolute;
+    
 }
 .sidebar h1{
     color: black;

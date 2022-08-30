@@ -1,7 +1,7 @@
 .content-part{
     background-color: white;
-    width: 72%;
-    height: 100%;
+    min-width: 72%;
+    min-height: 90%;
     position: absolute;
     padding-left: 5px;
     border-radius: 25px;
@@ -21,4 +21,12 @@
     padding: 10px;
     color: black;
     display: inline-block;
+}
+.content-education-div{
+    min-width: 100px;
+    min-height: 100px;
+}
+.content-experience-div{
+    min-width: 100px;
+    min-height: 100px;
 }

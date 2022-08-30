@@ -1,0 +1,9 @@
+.education-div{
+    min-width: 100px;
+    min-height: 100px;
+}
+.education-div h1{
+    margin: 10px;
+    float: left;
+    color: black;
+}
