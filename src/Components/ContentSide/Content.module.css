@@ -23,10 +23,12 @@
     display: inline-block;
 }
 .content-education-div{
+    display: flex;
     min-width: 100px;
     min-height: 100px;
 }
 .content-experience-div{
+    display: flex;
     min-width: 100px;
     min-height: 100px;
 }

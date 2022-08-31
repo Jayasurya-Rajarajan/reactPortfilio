@@ -1,9 +1,16 @@
-.education-div{
+.education-div-head{
     min-width: 100px;
     min-height: 100px;
 }
-.education-div h1{
+.education-div-head h1{
     margin: 10px;
     float: left;
     color: black;
+}
+
+.education-div-school{
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 10px;
+    
 }

@@ -1,3 +1,15 @@
 .header{
     position: sticky;
+    
+}
+.header h1{
+    color: white;
+    transform: rotate(-0deg);
+    transition: 1000ms;
+}
+.header h1:hover{
+    
+    transform: rotate(360deg);
+    /* transform: scale(1.5); */
+    transition: 1000ms;
 }

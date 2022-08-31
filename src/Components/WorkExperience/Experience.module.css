@@ -1,8 +1,16 @@
-.experience-div{
+.experience-div-head{
     min-width: 100px;
     min-height: 100px;
+    display: block;
 }
 
-.experience-div h1{
+.experience-div-head h1{
     color: black;
+    float: left;
+    margin: 10px;
+}
+.experience-div-company{
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 10px;
 }
